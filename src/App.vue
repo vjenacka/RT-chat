@@ -1,14 +1,16 @@
 <template>
   <div id="app">
-    <h1>hello</h1>
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
 <script>
+import Welcome from "./components/Welcome";
 export default {
-  components:{}
-}
+  components: {
+    Welcome
+  }
+};
 </script>
 
 <style lang="scss">
